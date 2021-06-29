@@ -1,1 +1,1 @@
-Página Facebook
+Postagem no Facebook com mesma foto de publicação e mesmo nome de usuário solicitados.
