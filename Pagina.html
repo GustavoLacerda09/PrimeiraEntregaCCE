@@ -4,48 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Pagina.css" rel="stylesheet"/> 
     
     <title>Facebook</title>
 </head>
 <body bgcolor = "#000000">
-    <div id="esquerda">
-        <div>
-            <button> <img src = "Imagens/x.svg" width="20" height="20" /> </button>
-           <a href="https://www.facebook.com/"><img src = "Imagens/facebook.svg" width="40" height="39.78" /></a>  
-        
-        </div>
-        <div>
-            <button><img src = "Imagens/seta.svg" /></button>
-            <img src = "Imagens/processo_seletivo.jpg" width="721.33" height="721.33"/>
-            <button><img src = "Imagens/seta.svg" /></button>
-        </div>
-        <div>
-            <button><img src = "Imagens/lupa_mais.svg" /></button>
-            <button><img src = "Imagens/lupa_menos.svg"  /></button>
-            <button><img src = "Imagens/etiqueta.svg" /></button> 
-            <button><img src = "Imagens/seta-dupla.svg" > </button>
-        </div>
-    </div>
 
-    <div id="direita">
-       
-        <div>
-            <button><img src = "Imagens/menu.svg"  /></button>
-            <button><img src = "Imagens/mensagem.svg" /></button>
-            <button><img src = "Imagens/sino.svg"/> </button>
-            <button><img src = "Imagens/abrir-menu.svg" /> </button>
-        </div>
-       <a href="https://www.facebook.com/fluxoconsultoria/" target="_blank">Fluxo Consultoria </a>
-        <button> <img src = "Imagens/tres-pontos.svg" /></button>
+    <div id="container">
+        <div id="esquerda">
+            <div id="esquerda-superior">
+                <img src = "Imagens/x.svg" width="20" height="20"  /> 
+               <a href="https://www.facebook.com/" target="_blank"><img src = "Imagens/facebook.svg" width="40" height="39.78" /></a>  
+            </div>
 
-        <div>
-            <button><img src = "Imagens/curtir.svg"/></button>
-            <button><img src = "Imagens/comentar.svg" /></button>
-            <button><img src = "Imagens/compartilhar.svg" /></button>
+            <div id="esquerda-centro">
+                <img src = "Imagens/seta.svg"  />
+                <img src = "Imagens/processo_seletivo.jpg" />
+                <img id="rotacionar" src = "Imagens/seta.svg" />
+            </div>
+
+            <div id="esquerda-direita-superior">
+                <img class="esquerda-direita-superior" src = "Imagens/lupa_mais.svg" width="20" height="20"  />
+                <img class="esquerda-direita-superior" src = "Imagens/lupa_menos.svg"width="20" height="20"  />
+                <img class="esquerda-direita-superior" src = "Imagens/etiqueta.svg" width="20" height="20" /> 
+                <img class="esquerda-direita-superior" src = "Imagens/seta-dupla.svg" width="20" height="20" /> 
+             </div>
         </div>
-        
-    </div>
     
+        <div id="direita">
+           
+            <div id="direita-superior">
+                <img src = "Imagens/menu.svg" width="20" height="20"  />
+                <img src = "Imagens/mensagem.svg" width="20" height="20" />
+                <img src = "Imagens/sino.svg" width="20" height="20" />
+                <img src = "Imagens/abrir-menu.svg" width="20" height="20" />
+            </div>
+            
+            <div id="direita-inferior">
+                <br>
+                <form>
+                    <p> <a href="https://www.facebook.com/fluxoconsultoria/" target="_blank"> <img id="redondo" src="Imagens/logo-fluxo.png"  width="40" height="40" /> </a>
+                        Fluxo Consultoria 
+                                            <img id="tres_pontos" src = "Imagens/tres-pontos.svg" width="20" height="20" /> </p>
+                    <p style="color: white;"> <br><br> As inscrições para o PAME 21.1 estão oficialmente abertas!! 🧡🖤 <br><br>
+                    O Processo Seletivo da Fluxo engloba diversas capacitações e palestras sobre assuntos não só técnicos, mas também ligados à gerenciamento, ao funcionamento da empresa, à gestão de tempo, a soft skills, entre outros assuntos! E o melhor de tudo é que você não precisa ter nenhum conhecimento prévio, pois estaremos passando todo o conteúdo para vocês!
+                        Então, se você tem interesse em pôr em prática seu aprendizado <button>...ver mais</button>
+                    </p> 
+                    <br>
+                    
+                <a><button><img src = "Imagens/curtir.svg"/> Curtir </button>
+                <button><img src = "Imagens/comentar.svg" /> Comentar</button>
+                <button><img src = "Imagens/compartilhar.svg" /> Compartilhar</button></a> <br><br>
+                
+                <p><a href="https://www.facebook.com/profile.php?id=100009314120737" target="_blank"> <img id="redond" src="Imagens/eu.jpg"  width="40" height="40" /> </a>Gustavo Lacerda</p> 
+                <p>O PAME tem sido uma experiência muito enriquecedora e proveitosa só fazendo eu gostar ainda mais da Fluxo<br></p> <br>
+                <input placeholder="Escreva um comentário">  
+
+                </form>
+                
+            </div>
+            
+        </div>
+    </div>
     
 </body>
 </html> 

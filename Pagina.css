@@ -1,0 +1,81 @@
+*{
+padding: 0px ;
+margin: 0;
+
+}
+
+button
+{
+    background-color: #242526;
+    border-color: #242526;
+    color: white;
+}
+
+#container 
+{
+display: flex;
+color: white;
+width: 100%;
+}
+
+#esquerda
+{
+    display: flex;
+    flex-direction:column;
+    width: 85%;
+}
+
+#esquerda-superior
+{
+    display: flex ;
+    flex-direction:row ;
+}
+
+#esquerda-centro
+{
+    display: flex ;
+    flex-direction:row ;
+    
+    margin-left: 150px;
+}
+
+#esquerda-direita-superior
+{
+    display: flex ;
+    flex-direction:row ;
+    transform-origin: right top 0;
+} 
+
+#direita
+{
+    background-color: #242526;
+    display: flex;
+    flex-direction: column;
+    width: 15%;    
+   
+}
+
+#tres_pontos
+{
+    margin-left: 80px;
+}
+#direita-superior
+{
+   margin-left: 180px;
+}
+
+#redondo
+{
+    border-radius: 50%;
+}
+
+#redond
+{
+    border-radius: 50%;
+}
+
+#rotacionar
+{
+    transform: rotate(180deg);
+    transform-origin: right middle 0;
+}
